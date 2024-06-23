@@ -19,7 +19,7 @@ app.get("/projects",(request,response)=>{
     response.render("portfolio/projects.ejs");
 })
 app.get("/",(request,response)=>{
-      response.send("No page found");
+      response.render("portfolio/error.ejs");
 })
 app.listen(port,()=>{
     console.log(`listening to port ${port}`);
