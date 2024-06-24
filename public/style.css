@@ -11,7 +11,7 @@ main{
 
 .nav{
    height: 3.5rem !important;
-   background-color: #22222204 !important;
+   background-color: black !important;
    display: flex !important;
    justify-content: center;
    padding: 0 !important;
