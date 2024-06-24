@@ -18,33 +18,14 @@ Static Assets: Serves static CSS and JavaScript files using Express middleware.
 
 **Navigate through pages:**
 
-Home: Visit http://localhost:8080/home to see the home page.
-About: Visit http://localhost:8080/about to see the about page.
-Projects: Visit http://localhost:8080/projects to see the projects page.
+Home: to see the home page.
+About: to see the about page.
+Projects: to see the projects page.
 Explore the E-Portfolio:
 
 Customize the content and design in portfolio/home.ejs, portfolio/about.ejs, and portfolio/projects.ejs according to your preferences.
 
-**Folder Structure
-graphql
-Copy code**
-e-portfolio/
-│
-├── app.js            # Express server setup
-├── package.json      # NPM dependencies and scripts
-├── public/           # Static assets (CSS, JS)
-│   └── styles.css    # Stylesheet
-│   └── script.js     # JavaScript file
-└── views/            # EJS templates
-    ├── portfolio/
-    │   ├── home.ejs      # Home page template
-    │   ├── about.ejs     # About page template
-    │   ├── projects.ejs  # Projects page template
-    │   └── error.ejs     # Error page template
-    └── includes/
-        ├── head.ejs      # Common head section for templates
-        ├── nav.ejs       # Navigation bar template
-        └── footer.ejs    # Footer template
+
 **Dependencies**
 Express: Fast, unopinionated, minimalist web framework for Node.js.
 EJS: Embedded JavaScript templating.
